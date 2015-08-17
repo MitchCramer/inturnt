@@ -4,6 +4,9 @@
 </head>
 <body>
 <center><img id="img1" src="pictures/red.jpg" style="width:500px;height:400px;"/></center>
+<br/>
+<br/>
+<center><img id="img2" src="pictures/party/party1.jpg"/></center>
 <script type="text/javascript">
          var x;
 
@@ -16,27 +19,62 @@ function change() {
     if (x === 1) {
         color = "red";
 	document.getElementById("img1").src="pictures/red.jpg";
+	document.getElementById("img2").src="pictures/party/party1.jpg";
         x = 2;
 	}
     else if (x === 2) {
         color = "yellow";
 	document.getElementById("img1").src="pictures/yellow.jpg";
+	document.getElementById("img2").src="pictures/party/party2.jpg";
         x = 3;
 	}
     else if (x === 3) {
         color = "green";
 	document.getElementById("img1").src="pictures/green.jpg";
+	document.getElementById("img2").src="pictures/party/party3.jpg";
         x = 4;
 	}
     else if (x === 4) {
         color = "blue";
 	document.getElementById("img1").src="pictures/blue.jpg";
+	document.getElementById("img2").src="pictures/party/party11.jpg";
         x = 5;
 	} 
     else if (x === 5) {
         color = "purple";
 	document.getElementById("img1").src="pictures/purple.jpg";
-        x = 1;
+	document.getElementById("img2").src="pictures/party/party5.jpg";
+        x = 6;
+    }
+        if (x === 6) {
+        color = "red";
+	document.getElementById("img1").src="pictures/red.jpg";
+	document.getElementById("img2").src="pictures/party/party6.jpg";
+        x = 7;
+	}
+    else if (x === 7) {
+        color = "yellow";
+	document.getElementById("img1").src="pictures/yellow.jpg";
+	document.getElementById("img2").src="pictures/party/party7.jpg";
+        x = 8;
+	}
+    else if (x === 8) {
+        color = "green";
+	document.getElementById("img1").src="pictures/green.jpg";
+	document.getElementById("img2").src="pictures/party/party8.jpg";
+        x = 9;
+	}
+    else if (x === 9) {
+        color = "blue";
+	document.getElementById("img1").src="pictures/blue.jpg";
+	document.getElementById("img2").src="pictures/party/party9.jpg";
+        x = 10;
+	} 
+    else if (x === 10) {
+        color = "purple";
+	document.getElementById("img1").src="pictures/purple.jpg";
+	document.getElementById("img2").src="pictures/party/party10.jpg";
+        x = 11;
     }
 
     document.body.style.background = color;
